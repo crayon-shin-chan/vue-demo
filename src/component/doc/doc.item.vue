@@ -27,9 +27,9 @@ export default class DocItem extends Vue {
 <style lang="scss">
 body{
   .doc-item{
-      margin: 20px 10% 20px 10%;
+      margin: 0px 10% 0px 10%;
       width:75%;
-      height:120px;
+      height:60px;
       clear: both;
   }
   .left{
@@ -46,8 +46,8 @@ body{
   }
   .name{
       display: block;
-      width:200px;
-      height:50px;
+      width:120px;
+      height:30px;
       border: {
           radius: 5px;
       };
@@ -58,15 +58,15 @@ body{
       text-align: left;
       color: black;
       font: {
-          size: 30px;
+          size: 20px;
       };
       background: linear-gradient(to left,rgb(0, 255, 0), rgb(0, 255, 149));
   }
   .git{
       display: block;
-      margin: 20px 0px 20px 0px;
-      width: 70px;
-      height: 20px;
+      margin: 5px 0px 5px 0px;
+      width: 50px;
+      height: 15px;
       border: {
           radius: 3px;
       };
@@ -74,7 +74,7 @@ body{
       text-align: center;
       color: black;
       font: {
-          size: 15px;
+          size: 10px;
       };
       background: linear-gradient(to left,red, blue);
   }
