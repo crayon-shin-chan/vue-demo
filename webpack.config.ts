@@ -91,7 +91,7 @@ const config: webpack.Configuration = {
         }),
         /**生成唯一入口html */
         new HtmlWebpackPlugin({
-            title: "首页",
+            title: "Vue学习笔记",
             filename: `./index.html`,
             /**需要加入的js块 */
             chunks: ['common','index'],

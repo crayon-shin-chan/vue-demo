@@ -27,7 +27,7 @@ export default class DocItem extends Vue {
 <style lang="scss">
 body{
   .doc-item{
-      margin: 0px 10% 0px 10%;
+      margin: 0 10% 0 10%;
       width:75%;
       height:60px;
       clear: both;
@@ -46,19 +46,17 @@ body{
   }
   .name{
       display: block;
-      width:120px;
+      width:140px;
       height:30px;
       border: {
           radius: 5px;
       };
-      padding: {
-         left: 20px;
-      }
       text-decoration: none;
-      text-align: left;
+      text-align: center;
+      vertical-align:middle;
       color: black;
       font: {
-          size: 20px;
+          size: 15px;
       };
       background: linear-gradient(to left,rgb(0, 255, 0), rgb(0, 255, 149));
   }

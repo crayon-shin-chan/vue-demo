@@ -38,15 +38,28 @@ import DocItem from './doc.item.vue'
                     desc:"🗃️ Centralized State Management for Vue.js."
                 },
                 {
-                    name:"vue-loader",
-                    url:"https://vue-loader.vuejs.org/",
-                    git:"https://github.com/vuejs/vue-loader",
-                    desc:"📦 Webpack loader for Vue.js components"
-                },{
                     name:"vue-cli",
                     url:"https://cli.vuejs.org/",
                     git:"https://github.com/vuejs/vue-cli",
                     desc:"🛠️ Standard Tooling for Vue.js Development"
+                },
+                {
+                    name:"vue-devtools",
+                    url:"https://github.com/vuejs/vue-devtools",
+                    git:"https://github.com/vuejs/vue-devtools",
+                    desc:"⚙️ Browser devtools extension for debugging Vue.js applications."
+                },
+                {
+                    name:"class-component",
+                    url:"https://github.com/vuejs/vue-class-component",
+                    git:"https://github.com/vuejs/vue-class-component",
+                    desc:"https://github.com/vuejs/vue-class-component"
+                },
+                {
+                    name:"vue-loader",
+                    url:"https://vue-loader.vuejs.org/",
+                    git:"https://github.com/vuejs/vue-loader",
+                    desc:"📦 Webpack loader for Vue.js components"
                 }
             ]
         }
