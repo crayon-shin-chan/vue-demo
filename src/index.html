@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <style>
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+    </style>
+    <script>
+        const root = document.documentElement
+        const pc = navigator.platform.toLowerCase().includes('win') ||
+            navigator.platform.toLowerCase().includes('mac') ||
+            navigator.platform.toLowerCase().includes('x11') ||
+            navigator.platform.toLowerCase().includes('linux')
+        const onresize = () => {
+            const width = window.innerWidth
+            if (!pc) {
+                root.style.fontSize = '10px'
+            } else {
+                if (width > 1200) {
+                    root.style.fontSize = 1200 / 90 + 'px'
+                } else {
+                    root.style.fontSize = width / 90 + 'px'
+                }
+            }
+        }
+        window.onresize = onresize
+        onresize()
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+
+</html>
